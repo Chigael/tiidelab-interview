@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiidelab AssesmenT</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header >
+            <p id="top">Pro Cleaners</p>
+            <span>Phone: 1-800-222-3030</span>
+    </header>
+
+    <!--section 1-->
+    <div class="container">
+    <div class="section">
+        <div class="info">
+             <h1>Vancouver's Best home Cleaners</h1>
+             <P id="sub">Pro Cleaning is Vancouver's best cleaning service. For the 
+                 quality maid service Vancouver relies on, book one of our
+                experienced, background checked professionals to have your
+               home clean in on time.</p> 
+        </div>
+
+         <div class="action">
+             <h2>Request Info & Booking</h2>
+             <h4>Fill this form and we'll contact you as soon as we can</h4>
+            <form action="" onsubmit="processForm()" name="signup" id="signup" class="form">
+
+                <input type="text" name="fullname" id="fullName" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <input type="tel" name="telephone" id="telephone" placeholder="Your Phone" required>
+                <input type="submit" value="Request Info & Booking"> 
+            </form>
+         </div>
+        </div>
+</div>
+
+    <div>
+            <section id="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <img src="./man.png">
+                        <h3>Trusted Professionals</h3>
+                        <p>Our professionals are experienced friendly and background checked.</p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="./calendar.png">
+                        <h3>Available Everyday</h3>
+                        <p>We are avialable to serve you 7 day per week, We'll work around your schedule</p>
+                    </div>
+
+                    <div class="icon">
+                        <img src="./dollar.png">
+                        <h3>100% Money-Back Gurantee</h3>
+                        <p>If you're not satisfied we'll refund all of yor money, it's as simple as that</p>
+                    </div>
+                </div>
+            </section>
+</div>
+
+<!--Reviews section-->
+ <div class="select"> 
+   
+      <h2 id="heading">What our client say</h2>
+      <div class="sect">
+      <div class="feed">
+        <img src="./man2.jpg">
+        <h3>Paulo Parra</h3>
+       <hr>
+        <p id="details">The team was fast and friendly, honestly my house has'nt been this clean in years</p>
+        <br>
+        <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div> 
+    
+    <div class="feed2">
+        <img src="./woman.jpg">
+        <h3>Ana Carolina</h3>
+        <hr>
+        <p id="details">It feels so great walikg into afresh, clean apartment everyday. These guys make my place spotless</p>
+        <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+</div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+      <p>Copyright, All Rights Reserved.</p>
+  </footer>
+
+  <script>
+      function processForm(){
+        fullname = document.getElementById('fullName').value
+        
+      alert(fullName)
+    
+      }
+      
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+
+}
+
+/* header*/
+.header{
+    padding: 20px;
+    background-color: whitesmoke;
+    height: 20px;
+    display: flex;
+}
+
+#top{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    float: left;
+
+
+}
+#one{
+    margin-left: 100px;
+}
+h1{
+    font-size: 70px;
+    text-align: left;
+    color: whitesmoke;
+}
+#sub{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.container{
+    background-image: url("/maid.jpg");
+    min-height: 500px;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+
+}
+.section{
+    padding: 20px;
+    margin: 10px auto;
+}
+.info{
+    width: 50%;
+    margin: 50px 20px 20px 50px;
+    float: left;
+    clear: left;
+}
+.action{
+    position: absolute;
+    right: 0;
+    background-color: rgb(20, 19, 19);
+    width: 30%;
+    float: left;
+    padding: 15px 15px 50px 15px;
+    margin:20px 200px 20px 20px;
+    
+    
+}
+
+h2, h4{
+    color: whitesmoke;
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: rgb(118, 223, 14);
+    color: white;
+}
+input{
+    width: 90%;
+    padding: 15px 10px;
+    margin: 5px 20px;
+    box-sizing: border-box;
+}
+
+#boxes{
+    display: flex;
+    margin-top: 10px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    
+}
+img{
+    width: 25%;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.select{
+    background-color: whitesmoke;
+    height: 500px;
+    background-size: cover;
+}
+.sect{
+    display: flex;
+    text-align: center;
+    padding: 50px 20px 20px 220px;
+    float: left;
+    margin-right: 200px;
+}
+hr{
+    width: 300px;
+}
+#details{
+    width: 400px;
+}
+
+.checked{
+    color: orange;
+}
+
+/* footer*/
+footer{
+    padding: 5px;
+    color: whitesmoke;
+    background: rgb(54, 52, 52);
+    text-align: left;
+}
+.feed{
+    width: 50%;
+}
+.feed2{
+    width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .info .action .icon .feed .feed2{
+        width: 100%;
+    }
+}
